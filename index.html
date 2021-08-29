@@ -1,0 +1,132 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width">
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+
+    <!--font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <style>
+    *{
+      box=sizing:border-box;
+      padding:0;
+      margin:0;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+.main{
+  padding-top:30px;
+
+  width:100%;
+  height:60px;
+  background:rgba(0,0,0,0.6);
+  display:flex;
+  justify-content:space-between;
+}
+nav ul{
+display:flex;
+justify-content:space-around;
+padding-right:5px;
+}
+nav ul li{
+list-style:none;
+padding-top:5px;
+padding-left:50px;
+text-align:center;
+}
+nav ul li a{
+  text-decoration:none;
+  font-size:20px;
+transition:0.8s;
+  padding:20px;
+  color:white;
+}
+nav ul li a:hover{
+background:cyan;
+border-radius:5px;
+}
+.img{
+  width:100%;
+  height:88vh;
+  background:url("https://i.ibb.co/5hJvPvn/unnamed.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-position:center center;
+}
+.img h2{
+  color:white;
+  text-align:center;
+  margin:16px;
+}
+.img h2:nth-child(1){
+  color:red;
+  font-size:34px;
+  letter-spacing:5px;
+}
+.img h2:nth-child(2){
+  color:#151515;
+  font-size:32px;
+  letter-spacing:5px;
+}
+
+.logo{
+  padding-left:20px;
+  color:red;
+  font-size:30px;
+}
+.img h2:nth-child(3){
+  color:white;
+  font-size:30px;
+  letter-spacing:5px;
+}
+@media screen and (max-width:800px){
+  .main .logo{
+display:none;
+
+  }
+  .main nav ul{
+    padding:0px;
+  }
+  .img{
+    width:100%;
+    height:90vh;
+    max-width:100%;
+  }
+}
+</style>
+  </head>
+  <body>
+<div class="header">
+<div class="main">
+<div class="logo">
+
+First Site</div>
+<nav>
+  
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+<li><a href="#">For Help</a></li>
+<li><a href="#">Service</a></li>
+
+</ul>
+</nav>
+</div>
+<div class="img">
+<div class="write">
+<h2>Your Knowledge</h2>
+<h2>Your Struggle</h2>
+<h2>Your Achieve</h2>
+</div>
+
+</div>
+</div>
+  </body>
+</html>
